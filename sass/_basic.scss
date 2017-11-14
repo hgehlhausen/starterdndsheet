@@ -1,0 +1,214 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: gray;
+    padding-left: 3em;
+    padding-right: 3em;
+    padding-top: 1em;
+    padding-bottom: 3em;
+    font-family: Helvetica;
+}
+
+.inline-block {
+    display: inline-block;
+}
+
+.block {
+    display: block;
+}
+
+.float-left {
+    float: left;
+}
+
+.float-right {
+    float: right;
+}
+
+.clear-both {
+    clear: both;
+}
+
+.relative {
+    position: relative;
+}
+.absolute {
+    position: absolute;
+}
+.fixed {
+    position: fixed;
+}
+
+.snap-right {
+    right: 0;
+}
+.snap-left {
+    left: 0;
+}
+.snap-top {
+    top: 0;
+}
+.snap-bottom {
+    bottom: 0;
+}
+
+.text-center {
+    text-align: center;
+}
+.text-left {
+    text-align: left;
+}
+.text-right {
+    text-align: right;
+}
+
+.margin-right-0 {
+    margin-right:0;
+}
+.margin-left-0 {
+    margin-left:0;
+}
+.margin-top-0 {
+    margin-top: 0;
+}
+.margin-bottom-0 {
+    margin-bottom: 0;
+}
+
+.spacer {
+    display: block;
+    width: 1em;
+    height: 1em;
+}
+
+
+.width-1 {
+    width: 1em;
+}
+.width-2 {
+    width: 2em;
+}
+.width-3 {
+    width: 3em;
+}
+.width-5 {
+    width: 5em;
+}
+.width-10 {
+    width: 10em;
+}
+.width-20 {
+    width: 20em;
+}
+.width-25 {
+    width: 25em;
+}
+.width-30 {
+    width: 30em;
+}
+.width-full {
+    width: 100%;
+}
+.width-half {
+    width: 50%;
+}
+.width-quarter {
+    width: 25%;
+}
+.width-third {
+    width: 33%;
+}
+.width-twothird {
+    width: 66%;
+}
+.width-third-odd {
+    width: 34%;
+}
+
+.height-1 {
+    height: 1em;
+}
+.height-2 {
+    height: 2em;
+}
+.height-3 {
+    height: 3em;
+}
+.height-10 {
+    height: 10em;
+}
+
+.square-1 {
+    width: 1em;
+    height: 1em;
+}
+.square-2 {
+    width: 2em;
+    height: 2em;
+}
+.square-3 {
+    width: 3em;
+    height: 3em;
+}
+.square-4 {
+    width: 4em;
+    height: 4em;
+}
+.square-5 {
+    width: 5em;
+    height: 5em;
+}
+.square-6 {
+    width: 6em;
+    height: 6em;
+}
+
+.bdr-solid {
+    border-style: solid;
+}
+.bdr-1 {
+    border-width: 1px;
+}
+.bdr-light {
+    border-color: lightgray;
+}
+.bdr-black {
+    border-color: black;
+}
+
+
+.three-column {
+    .column-left {
+        width: 33%;
+        float: left;
+        > .head {
+            margin-bottom: 1em;
+        }
+    }
+    .column-center {
+        width: 44%;
+        float: left;
+        margin-left: 0.55em;
+        > .head {
+            margin-bottom: 1em;
+        }
+    }
+    .column-right {
+        width: 20%;
+        float: right;
+        > .head {
+            margin-bottom: 1em;
+        }
+    }
+
+    .column-left, .column-center, .column-right {
+        > .head {
+            border-top: 1px solid black;
+            border-left: 1px solid black;
+            border-right: 1px solid black;
+        }
+    }
+}

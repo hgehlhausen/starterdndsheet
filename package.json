@@ -1,0 +1,23 @@
+{
+  "name": "starterdndsheet",
+  "version": "0.5.0",
+  "description": "DnD version 5e sheet for beginners",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "ng" : "./.bin/ng"
+  },
+  "keywords": [
+    "dnd",
+    "5e",
+    "starter",
+    "character",
+    "charactersheet",
+    "sheet"
+  ],
+  "author": "hgehlhausen",
+  "license": "MIT",
+  "dependencies": {
+    "@angular/cli": "^1.5.0"
+  }
+}

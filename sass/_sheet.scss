@@ -1,0 +1,29 @@
+.page {
+    border-left: 1px solid black;
+    border-top: 1px solid black;
+    border-bottom: 2px solid black;
+    border-right: 2px solid black;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 1em;
+    padding-left: 0.75in;
+    padding-right: 0.75in;
+    padding-top: 0.5in;
+    padding-bottom: 0.5in;
+    background-color: white;
+    width: 8.5in;
+    height: 11in;
+
+    > .head {
+        height: 7em;
+    }
+}
+
+@media print {
+    .page {
+        border: none;
+        margin: 0;
+        padding: 0;
+        width: 8.5in;
+    }
+}

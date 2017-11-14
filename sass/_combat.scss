@@ -1,0 +1,56 @@
+.combat {
+    min-height: 5em;
+
+    .notes {
+        position: relative;
+        span {
+            display: block;
+            position: absolute;
+            bottom: -0.6em;
+            font-size: 9pt;
+            left: 50%;
+            background-color: white;
+            border: 1px solid lightgray;
+            transform: translateX(-50%);
+            color: rgba(0,0,0,0.4);
+            padding-left: 2px;
+            padding-right: 2px;
+            border-radius: 3px;
+        }
+    }
+}
+
+.hitpoints, .maxhitpoints, .proficiency, .armor-class, .initiative, .speed {
+    position: relative;
+    text-align: center;
+    span {
+        display: block;
+        position: absolute;
+        bottom: -0.7em;
+        padding: 0.2em;
+        border: 1px solid black;
+        border-radius: 3px;
+        font-size: 9pt;
+        background-color: white;
+        margin: auto 0;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+}
+
+.proficiency, .speed , .maxhitpoints {
+    margin-right: 1em;
+}
+
+.hitpoints {
+    border-right: 0;
+}
+
+.attack {
+    width: 100%;
+    border-bottom: 1px solid lightgray;
+}
+.attack .attack-height {
+    position: relative;
+    height: 3em;
+}

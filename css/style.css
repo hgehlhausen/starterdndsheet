@@ -1,0 +1,609 @@
+/* line 1, ../sass/_basic.scss */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* line 6, ../sass/_basic.scss */
+body {
+  background-color: gray;
+  padding-left: 3em;
+  padding-right: 3em;
+  padding-top: 1em;
+  padding-bottom: 3em;
+  font-family: Helvetica;
+}
+
+/* line 15, ../sass/_basic.scss */
+.inline-block {
+  display: inline-block;
+}
+
+/* line 19, ../sass/_basic.scss */
+.block {
+  display: block;
+}
+
+/* line 23, ../sass/_basic.scss */
+.float-left {
+  float: left;
+}
+
+/* line 27, ../sass/_basic.scss */
+.float-right {
+  float: right;
+}
+
+/* line 31, ../sass/_basic.scss */
+.clear-both {
+  clear: both;
+}
+
+/* line 35, ../sass/_basic.scss */
+.relative {
+  position: relative;
+}
+
+/* line 38, ../sass/_basic.scss */
+.absolute {
+  position: absolute;
+}
+
+/* line 41, ../sass/_basic.scss */
+.fixed {
+  position: fixed;
+}
+
+/* line 45, ../sass/_basic.scss */
+.snap-right {
+  right: 0;
+}
+
+/* line 48, ../sass/_basic.scss */
+.snap-left {
+  left: 0;
+}
+
+/* line 51, ../sass/_basic.scss */
+.snap-top {
+  top: 0;
+}
+
+/* line 54, ../sass/_basic.scss */
+.snap-bottom {
+  bottom: 0;
+}
+
+/* line 58, ../sass/_basic.scss */
+.text-center {
+  text-align: center;
+}
+
+/* line 61, ../sass/_basic.scss */
+.text-left {
+  text-align: left;
+}
+
+/* line 64, ../sass/_basic.scss */
+.text-right {
+  text-align: right;
+}
+
+/* line 68, ../sass/_basic.scss */
+.margin-right-0 {
+  margin-right: 0;
+}
+
+/* line 71, ../sass/_basic.scss */
+.margin-left-0 {
+  margin-left: 0;
+}
+
+/* line 74, ../sass/_basic.scss */
+.margin-top-0 {
+  margin-top: 0;
+}
+
+/* line 77, ../sass/_basic.scss */
+.margin-bottom-0 {
+  margin-bottom: 0;
+}
+
+/* line 81, ../sass/_basic.scss */
+.spacer {
+  display: block;
+  width: 1em;
+  height: 1em;
+}
+
+/* line 88, ../sass/_basic.scss */
+.width-1 {
+  width: 1em;
+}
+
+/* line 91, ../sass/_basic.scss */
+.width-2 {
+  width: 2em;
+}
+
+/* line 94, ../sass/_basic.scss */
+.width-3 {
+  width: 3em;
+}
+
+/* line 97, ../sass/_basic.scss */
+.width-5 {
+  width: 5em;
+}
+
+/* line 100, ../sass/_basic.scss */
+.width-10 {
+  width: 10em;
+}
+
+/* line 103, ../sass/_basic.scss */
+.width-20 {
+  width: 20em;
+}
+
+/* line 106, ../sass/_basic.scss */
+.width-25 {
+  width: 25em;
+}
+
+/* line 109, ../sass/_basic.scss */
+.width-30 {
+  width: 30em;
+}
+
+/* line 112, ../sass/_basic.scss */
+.width-full {
+  width: 100%;
+}
+
+/* line 115, ../sass/_basic.scss */
+.width-half {
+  width: 50%;
+}
+
+/* line 118, ../sass/_basic.scss */
+.width-quarter {
+  width: 25%;
+}
+
+/* line 121, ../sass/_basic.scss */
+.width-third {
+  width: 33%;
+}
+
+/* line 124, ../sass/_basic.scss */
+.width-twothird {
+  width: 66%;
+}
+
+/* line 127, ../sass/_basic.scss */
+.width-third-odd {
+  width: 34%;
+}
+
+/* line 131, ../sass/_basic.scss */
+.height-1 {
+  height: 1em;
+}
+
+/* line 134, ../sass/_basic.scss */
+.height-2 {
+  height: 2em;
+}
+
+/* line 137, ../sass/_basic.scss */
+.height-3 {
+  height: 3em;
+}
+
+/* line 140, ../sass/_basic.scss */
+.height-10 {
+  height: 10em;
+}
+
+/* line 144, ../sass/_basic.scss */
+.square-1 {
+  width: 1em;
+  height: 1em;
+}
+
+/* line 148, ../sass/_basic.scss */
+.square-2 {
+  width: 2em;
+  height: 2em;
+}
+
+/* line 152, ../sass/_basic.scss */
+.square-3 {
+  width: 3em;
+  height: 3em;
+}
+
+/* line 156, ../sass/_basic.scss */
+.square-4 {
+  width: 4em;
+  height: 4em;
+}
+
+/* line 160, ../sass/_basic.scss */
+.square-5 {
+  width: 5em;
+  height: 5em;
+}
+
+/* line 164, ../sass/_basic.scss */
+.square-6 {
+  width: 6em;
+  height: 6em;
+}
+
+/* line 169, ../sass/_basic.scss */
+.bdr-solid {
+  border-style: solid;
+}
+
+/* line 172, ../sass/_basic.scss */
+.bdr-1 {
+  border-width: 1px;
+}
+
+/* line 175, ../sass/_basic.scss */
+.bdr-light {
+  border-color: lightgray;
+}
+
+/* line 178, ../sass/_basic.scss */
+.bdr-black {
+  border-color: black;
+}
+
+/* line 184, ../sass/_basic.scss */
+.three-column .column-left {
+  width: 33%;
+  float: left;
+}
+/* line 187, ../sass/_basic.scss */
+.three-column .column-left > .head {
+  margin-bottom: 1em;
+}
+/* line 191, ../sass/_basic.scss */
+.three-column .column-center {
+  width: 44%;
+  float: left;
+  margin-left: 0.55em;
+}
+/* line 195, ../sass/_basic.scss */
+.three-column .column-center > .head {
+  margin-bottom: 1em;
+}
+/* line 199, ../sass/_basic.scss */
+.three-column .column-right {
+  width: 20%;
+  float: right;
+}
+/* line 202, ../sass/_basic.scss */
+.three-column .column-right > .head {
+  margin-bottom: 1em;
+}
+/* line 208, ../sass/_basic.scss */
+.three-column .column-left > .head, .three-column .column-center > .head, .three-column .column-right > .head {
+  border-top: 1px solid black;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+}
+
+/* line 1, ../sass/_sheet.scss */
+.page {
+  border-left: 1px solid black;
+  border-top: 1px solid black;
+  border-bottom: 2px solid black;
+  border-right: 2px solid black;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 1em;
+  padding-left: 0.75in;
+  padding-right: 0.75in;
+  padding-top: 0.5in;
+  padding-bottom: 0.5in;
+  background-color: white;
+  width: 8.5in;
+  height: 11in;
+}
+/* line 17, ../sass/_sheet.scss */
+.page > .head {
+  height: 7em;
+}
+
+@media print {
+  /* line 23, ../sass/_sheet.scss */
+  .page {
+    border: none;
+    margin: 0;
+    padding: 0;
+    width: 8.5in;
+  }
+}
+/* line 1, ../sass/_abilities.scss */
+.score-box {
+  width: 2em;
+  height: 2em;
+}
+
+/* line 6, ../sass/_abilities.scss */
+.ability {
+  min-height: 3em;
+  margin-bottom: 1.5em;
+}
+/* line 10, ../sass/_abilities.scss */
+.ability .head {
+  border-bottom: 1px solid black;
+}
+/* line 13, ../sass/_abilities.scss */
+.ability .head .head-size {
+  position: relative;
+  height: 1.7em;
+  width: 1px;
+  left: 0;
+}
+/* line 20, ../sass/_abilities.scss */
+.ability .head .float-right {
+  margin-right: 0.5em;
+}
+/* line 22, ../sass/_abilities.scss */
+.ability .head .float-right:last-of-type {
+  margin-right: 1.5em;
+}
+/* line 26, ../sass/_abilities.scss */
+.ability .head .float-left {
+  margin-left: 0.5em;
+}
+/* line 28, ../sass/_abilities.scss */
+.ability .head .float-left:first-child {
+  margin-left: 0;
+}
+/* line 35, ../sass/_abilities.scss */
+.ability .body ul {
+  margin-top: 1em;
+  list-style-type: none;
+}
+/* line 38, ../sass/_abilities.scss */
+.ability .body ul li {
+  margin-left: 3em;
+  margin-bottom: 0.5em;
+  border-bottom: 1px solid lightgray;
+}
+/* line 42, ../sass/_abilities.scss */
+.ability .body ul li::after {
+  content: "";
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  background-color: white;
+  border-radius: 50%;
+  border: 2px solid black;
+  vertical-align: middle;
+  float: right;
+  margin-right: 0.5em;
+}
+
+/* line 1, ../sass/_shapes.scss */
+.shield {
+  border-top-right-radius: 0;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 15em 30em;
+  border-bottom-right-radius: 15em 30em;
+}
+
+/* line 8, ../sass/_shapes.scss */
+.blade {
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+  border-top-left-radius: 15em 30em;
+  border-top-right-radius: 15em 30em;
+}
+
+/* line 15, ../sass/_shapes.scss */
+.blade-left {
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  border-top-left-radius: 15em 30em;
+  border-bottom-left-radius: 15em 30em;
+}
+
+/* line 21, ../sass/_shapes.scss */
+.blade-right {
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  border-top-right-radius: 15em 30em;
+  border-bottom-right-radius: 15em 30em;
+}
+
+/* line 28, ../sass/_shapes.scss */
+.box {
+  border-radius: 3px;
+}
+
+/* line 32, ../sass/_shapes.scss */
+.circle {
+  border-radius: 100%;
+}
+
+/* line 36, ../sass/_shapes.scss */
+.shape {
+  position: relative;
+  border: 2px solid black;
+  text-align: center;
+  background-color: white;
+}
+/* line 42, ../sass/_shapes.scss */
+.shape.top-label span {
+  top: -1.7em;
+  text-align: center;
+  margin: auto 0;
+  position: absolute;
+  font-size: 9pt;
+  transform: translateX(-50%);
+}
+/* line 52, ../sass/_shapes.scss */
+.shape.bottom-label span {
+  display: block;
+  position: absolute;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 3px;
+  font-size: 8pt;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: -0.7em;
+}
+
+/* line 1, ../sass/_combat.scss */
+.combat {
+  min-height: 5em;
+}
+/* line 4, ../sass/_combat.scss */
+.combat .notes {
+  position: relative;
+}
+/* line 6, ../sass/_combat.scss */
+.combat .notes span {
+  display: block;
+  position: absolute;
+  bottom: -0.6em;
+  font-size: 9pt;
+  left: 50%;
+  background-color: white;
+  border: 1px solid lightgray;
+  transform: translateX(-50%);
+  color: rgba(0, 0, 0, 0.4);
+  padding-left: 2px;
+  padding-right: 2px;
+  border-radius: 3px;
+}
+
+/* line 23, ../sass/_combat.scss */
+.hitpoints, .maxhitpoints, .proficiency, .armor-class, .initiative, .speed {
+  position: relative;
+  text-align: center;
+}
+/* line 26, ../sass/_combat.scss */
+.hitpoints span, .maxhitpoints span, .proficiency span, .armor-class span, .initiative span, .speed span {
+  display: block;
+  position: absolute;
+  bottom: -0.7em;
+  padding: 0.2em;
+  border: 1px solid black;
+  border-radius: 3px;
+  font-size: 9pt;
+  background-color: white;
+  margin: auto 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+/* line 41, ../sass/_combat.scss */
+.proficiency, .speed, .maxhitpoints {
+  margin-right: 1em;
+}
+
+/* line 45, ../sass/_combat.scss */
+.hitpoints {
+  border-right: 0;
+}
+
+/* line 49, ../sass/_combat.scss */
+.attack {
+  width: 100%;
+  border-bottom: 1px solid lightgray;
+}
+
+/* line 53, ../sass/_combat.scss */
+.attack .attack-height {
+  position: relative;
+  height: 3em;
+}
+
+/* line 1, ../sass/_blank.scss */
+.blank {
+  border-bottom: 1px solid black;
+  position: relative;
+}
+/* line 4, ../sass/_blank.scss */
+.blank > span {
+  position: absolute;
+  bottom: -1.3em;
+  font-size: 8pt;
+  color: rgba(0, 0, 0, 0.7);
+}
+
+/* line 1, ../sass/_equipment.scss */
+.equipment {
+  border: 2px solid black;
+  margin-top: 0.5em;
+  margin-left: 1em;
+  position: relative;
+}
+/* line 7, ../sass/_equipment.scss */
+.equipment .money {
+  width: 4em;
+  font-size: 9pt;
+  margin-bottom: 3px;
+  margin-left: -1em;
+  position: relative;
+  height: 1.75em;
+}
+/* line 8, ../sass/_equipment.scss */
+.equipment .money:first-of-type {
+  margin-top: -2px;
+}
+/* line 18, ../sass/_equipment.scss */
+.equipment .money span {
+  display: block;
+  position: absolute;
+  right: 0.3em;
+  color: rgba(0, 0, 0, 0.6);
+}
+/* line 25, ../sass/_equipment.scss */
+.equipment .weapon, .equipment .armor, .equipment .shield {
+  height: 1.75em;
+  position: relative;
+  bottom: 0;
+  border: 1px solid lightgray;
+}
+/* line 30, ../sass/_equipment.scss */
+.equipment .weapon span, .equipment .armor span, .equipment .shield span {
+  display: block;
+  position: absolute;
+  right: 0.3em;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+/* line 1, ../sass/_traits.scss */
+.traits {
+  position: relative;
+  border: 1px solid black;
+  min-height: 15em;
+  margin-bottom: 0.5em;
+}
+/* line 8, ../sass/_traits.scss */
+.traits span {
+  position: absolute;
+  color: rgba(10, 10, 10, 0.6);
+  bottom: -0.7em;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 3px;
+  padding: 0 3px;
+  font-size: 9pt;
+}
+/* line 21, ../sass/_traits.scss */
+.traits.class {
+  min-height: 23em;
+}

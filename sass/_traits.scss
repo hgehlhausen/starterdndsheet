@@ -1,0 +1,24 @@
+.traits {
+    position: relative;
+
+    border: 1px solid black;
+    min-height: 15em;
+    margin-bottom: 0.5em;
+
+    span {
+        position: absolute;
+        color: rgba(10,10,10,0.6);
+        bottom: -0.7em;
+        left: 50%;
+        transform: translateX(-50%);
+        background-color: white;
+        border: 1px solid black;
+        border-radius: 3px;
+        padding: 0 3px;
+        font-size: 9pt;
+    }
+
+    &.class {
+        min-height: 23em;
+    }
+}

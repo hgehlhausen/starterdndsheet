@@ -1,0 +1,64 @@
+.shield {
+    border-top-right-radius: 0;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 15em 30em;
+    border-bottom-right-radius: 15em 30em;
+}
+
+.blade {
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+    border-top-left-radius: 15em 30em;
+    border-top-right-radius: 15em 30em;
+}
+
+.blade-left {
+        border-top-right-radius: 0;
+        border-bottom-right-radius: 0;
+        border-top-left-radius: 15em 30em;
+        border-bottom-left-radius: 15em 30em;
+}
+.blade-right {
+        border-top-left-radius: 0;
+        border-bottom-left-radius: 0;
+        border-top-right-radius: 15em 30em;
+        border-bottom-right-radius: 15em 30em;
+}
+
+.box {
+    border-radius: 3px;
+}
+
+.circle {
+    border-radius: 100%;
+}
+
+.shape {
+    position: relative;
+    border: 2px solid black;
+    text-align: center;
+    background-color: white;
+    &.top-label {
+        span {
+            top: -1.7em;
+            text-align: center;
+            margin: auto 0;
+            position: absolute;
+            font-size: 9pt;
+            transform: translateX(-50%);
+        }
+    }
+    &.bottom-label {
+        span {
+            display: block;
+            position: absolute;
+            background-color: white;
+            border: 1px solid black;
+            border-radius: 3px;
+            font-size: 8pt;
+            left: 50%;
+            transform: translateX(-50%);
+            bottom: -0.7em;
+        }
+    }
+}
