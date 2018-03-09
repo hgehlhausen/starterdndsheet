@@ -1,12 +1,6 @@
-<!doctype html>
-<html>
-<head>
-    <link type="text/css" rel="stylesheet" href="./css/style.css">
-</head>
-<body>
-<div class="page">
-    <div class="head clear-both relative">&nbsp;
-        <div class="blank width-20 float-left height-1">
+
+<link type="text/css" rel="stylesheet" href="./css/style.css">
+<div class="page"><div class="head clear-both relative">&nbsp;<div class="blank width-20 float-left height-1">
             <span>Player</span>
         </div>
         <div class="blank width-10 float-left height-1">
@@ -34,7 +28,6 @@
         <div class="blank width-10 float-left height-1">
             <span>Campaign</span>
         </div>
-
     </div>
     <div class="three-column">
         <div class="column-left">
@@ -49,9 +42,7 @@
                     <span class="shape top-label square-2 number blade-right float-left">
                         <span>Bonus</span>
                     </span>
-
                     <span class="inline-block float-left">Strength</span>
-
                     <span class="shape circle top-label square-1 text-center float-right margin-right-0">
                         <span>Proficient</span>
                     </span>
@@ -74,9 +65,7 @@
                     <span class="shape top-label square-2 number blade-right float-left">
                         <span>Bonus</span>
                     </span>
-
                     <span class="inline-block float-left">Dexterity</span>
-
                     <span class="shape circle top-label square-1 text-center float-right margin-right-0">
                         <span>Proficient</span>
                     </span>
@@ -101,9 +90,7 @@
                     <span class="shape top-label square-2 number blade-right float-left">
                         <span>Bonus</span>
                     </span>
-
                     <span class="inline-block float-left">Constitution</span>
-
                     <span class="shape circle top-label square-1 text-center float-right margin-right-0">
                         <span>Proficient</span>
                     </span>
@@ -112,7 +99,7 @@
                     </span>
                     <div class="head-size"></div>
                 </div>
-                <div class=" body">
+                <div class="body">
                 </div>
             </div>
             <div class="ability">
@@ -123,9 +110,7 @@
                     <span class="shape top-label square-2 number blade-right float-left">
                         <span>Bonus</span>
                     </span>
-
                     <span class="inline-block float-left">Intelligence</span>
-
                     <span class="shape circle top-label square-1 text-center float-right margin-right-0">
                         <span>Proficient</span>
                     </span>
@@ -152,9 +137,7 @@
                 <span class="shape top-label square-2 number blade-right float-left">
                         <span>Bonus</span>
                     </span>
-
                 <span class="inline-block float-left">Wisdom</span>
-
                 <span class="shape circle top-label square-1 text-center float-right margin-right-0">
                         <span>Proficient</span>
                     </span>
@@ -181,9 +164,7 @@
                     <span class="shape top-label square-2 number blade-right float-left">
                         <span>Bonus</span>
                     </span>
-
                     <span class="inline-block float-left">Charisma</span>
-
                     <span class="shape circle top-label square-1 text-center float-right margin-right-0">
                         <span>Proficient</span>
                     </span>
@@ -290,5 +271,3 @@
         </div>
     </div>
 </div>
-</body>
-</html>
