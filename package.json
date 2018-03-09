@@ -4,8 +4,7 @@
   "description": "DnD version 5e sheet for beginners",
   "main": "index.js",
   "scripts": {
-    "test": "test",
-    "ng" : "./.bin/ng"
+    "test": "test"
   },
   "keywords": [
     "dnd",
@@ -16,8 +15,5 @@
     "sheet"
   ],
   "author": "hgehlhausen",
-  "license": "MIT",
-  "dependencies": {
-    "@angular/cli": "^1.5.0"
-  }
+  "license": "MIT"
 }
